@@ -1,0 +1,42 @@
+body{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: cadetblue;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(to right,purple,pink);   
+}
+#addButton{
+    /* width: 200px;
+    height: 200px; */
+    border-radius: 3px;
+    background-color: deeppink;
+}
+#addButton:hover{
+    background-color: palegoldenrod;
+}
+#showTableButton{
+    border-radius: 3px;
+    background-color: deeppink;
+    font-size: 20px;
+    color: black;
+}
+#showTableButton:hover{
+  background-color: palegoldenrod;
+  width: 55px;
+  height: 30px;
+}
+.table button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table button:hover{
+ background-color: rgb(201, 95, 201);
+}

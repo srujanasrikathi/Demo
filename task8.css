@@ -1,0 +1,29 @@
+.parent{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+    
+    position: relative;
+
+}
+.parent1{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(212, 120, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+    transform-style: preserve-3d;
+    transform: rotateY(45deg);    
+    
+
+}

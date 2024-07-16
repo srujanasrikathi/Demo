@@ -1,0 +1,162 @@
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 311px;
+}
+.circle1{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: black;
+    
+}
+.circle2{
+    width: 28px;
+    height: 28px;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    top: 234px;
+    left: 234px;
+}
+.child1{
+    font-size: 35px;
+    color: black;
+    font-style: normal;
+}
+#a{
+    position: absolute;
+    top: 5px;
+    left: 216px;
+}
+#b{
+    position: absolute;
+    top: 460px;
+    left: 234px;
+}
+#c{
+    position: absolute;
+    top: 233px;
+    left: 474px;
+}
+#d{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+}
+#e{
+    position: absolute;
+    top: 46px;
+    left: 364px;
+}
+#f{
+    position: absolute;
+    top: 137px;
+    left: 433px;
+}
+#g{
+    position: absolute;
+    top: 333px;
+    left: 441px;
+}
+#h{
+    position: absolute;
+    top: 419px;
+    left: 352px;
+}
+#i{
+    position: absolute;
+    top: 412px;
+    left: 105px;
+}
+#j{
+    position: absolute;
+    top: 328px;
+    left: 43px;
+}
+#k{
+    position: absolute;
+    top: 142px;
+    left: 23px;
+}
+#l{
+    position: absolute;
+    top: 56px;
+    left: 84px;
+}
+.hour{
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    top: 247px;
+    left: 150px;
+    background-color: black;
+    border-radius: 2px;
+    animation-name: my_hour;
+    animation-duration: 43200s;
+    animation-timing-function: linear;
+     animation-iteration-count: infinite; 
+     transform-origin: 100%;
+    
+} 
+.min{
+    width: 5px;
+    height: 130px;
+    position: absolute;
+    top: 176px;
+    left: 243px;
+    background-color: black;
+    border-radius: 2px;
+    animation-name: my_hour;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 100%;
+}
+
+.sec{
+    width: 5px;
+    height: 175px;
+    position: absolute;
+    top: 168px;
+    left: 249px;
+    background-color: black;
+    border-radius: 2px;
+    animation-name: my_sec;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 100%;
+}
+@keyframes my_sec{
+    0%{
+        transform: rotate(0deg) translateY(-50%) ;
+    }
+    100%
+    {
+        transform: rotate(360deg) translateY(-50%) ;
+    }
+}
+@keyframes my_min{
+    0%{
+        transform: rotate(0deg) translateY(-50%);
+    }
+    100%{
+        transform: rotate(360deg) translateY(-50%);
+    }
+}
+@keyframes my_hour{
+    0%{
+        transform: rotate(0deg) translateY(-50%);
+    }
+    100%{
+        transform: rotate(360deg) translateY(-50%);
+    }
+}

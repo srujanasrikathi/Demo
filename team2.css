@@ -1,0 +1,340 @@
+.div_1{
+    width: 100%;
+    height: 100svh;
+    position: relative;
+}
+.pet{
+    width: 100%;
+    height: 100svh;
+    background:linear-gradient(to top left, #F5888A, #FEC7CD );
+ }
+ 
+.components{
+    width: 100%;
+    height: 50px;
+    background-color:#F2F2F2;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+}
+.l{
+    color: gray;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 51px;
+    left: 100px;
+}
+.menu{
+    font-size: 50px;
+    position: absolute;
+    top: 51px;
+    left:1000px;
+    display: none;
+}
+.image1{
+    width: 550px;
+    height: 550px;
+    background-image: url(./5.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 137px;
+    left: 550px;
+}
+.circle{
+    width:100px;
+    height: 100px;
+    border-radius:50px;
+    background-color: #F17F7F;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    color:blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:400px;
+    left:150px;
+}
+.matter{
+    width: 550px;
+    font-size: 32px;
+    font-style: normal;
+    position: absolute;
+    top:450px;
+    left:150px;
+}
+.freepik{
+    font-size: 20px;
+    opacity: 0.7;
+    position: absolute;
+    top: 600px;
+    left: 150px;
+}
+.line{
+    width: 50px;
+    height: 10px;
+    font-size: 20px;
+    position: absolute;
+    top:0px;
+    left: 80px;
+}
+.line::after{
+    content:" ______";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.readmore{
+    width: 120px;
+    height: 34px;
+    font-size: 20px;
+    background-color:#F17F7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 630px;
+    left:150px;
+}
+.icon{
+    width: 50px;
+    height: 30px;
+    background-image: url(./Screenshot\ 2024-07-12\ 112956.png);
+    background-size: 100% 100%;
+    background-color: gray;
+    position: absolute;
+    top: 12px;
+    left: 1px;
+}
+.computer{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 19px;
+    left: 522px;
+}
+.laptop{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top: 19px;
+    left: 565px;
+}
+.tab{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 19px;
+    left: 609px;
+}
+.mobile{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 19px;
+    left: 649px;
+}
+.smobile{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 19px;
+    left: 687px;
+}
+.cross{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 1100px;
+    font-size: 25px;
+}
+.computer:hover{
+    background-color: skyblue;
+}
+.laptop:hover{
+    background-color: skyblue;
+}
+.tab:hover{
+    background-color: skyblue;
+}
+.mobile:hover{
+    background-color: skyblue;
+}
+.smobile:hover{
+    background-color: skyblue;
+}
+.cross:hover{
+    background-color: skyblue;
+}
+@media screen and (min-width:320px) and (max-width:1023px)
+{
+    .div_1{
+        width: 100%;
+        height: 50svh;
+        position: relative;
+    }  
+    .pet{
+        width: 100%;
+        height: 100svh;
+        background:linear-gradient(to top left, #F5888A, #FEC7CD );
+     }
+     .components{
+        width: 100%;
+        height: 25px;
+        background-color:#F2F2F2;
+    }
+    .logo{
+        width: 100%;
+        height: 25px;
+        background-color:white;
+    }
+    .l{
+        color: gray;
+        font-size: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 30px;
+        left: 100px;
+    }
+    .menu{
+        font-size: 50px;
+        position: absolute;
+        top: 10px;
+        left:350px;
+        display:block;
+    }
+    .image1{
+        width: 350px;
+        height: 350px;
+        background-image: url(./5.png);
+        background-size: 100% 100%;
+        position: absolute;
+        top:288px;
+        left: 130px;
+    }
+    .circle{
+        width:50px;
+        height: 50px;
+        border-radius:25px;
+        background-color: #F17F7F;
+        position: absolute;
+        top: 100px;
+        left: 15px;
+    }
+    .heading{
+        font-size: 20px;
+        font-weight: bold;
+        color:blue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:150px;
+        left:15px;
+    }
+    .matter{
+        width: 275px;
+        font-size: 32px;
+        font-style: normal;
+        position: absolute;
+        top:190px;
+        left:15px;
+    }
+    .freepik{
+        font-size: 20px;
+        opacity: 0.7;
+        position: absolute;
+        top: 520px;
+        left:15px;
+    }
+    .line{
+        width: 50px;
+        height: 10px;
+        font-size: 20px;
+        position: absolute;
+        top:0px;
+        left: 80px;
+    }
+    .readmore{
+        width: 120px;
+        height: 50px;
+        font-size: 20px;
+        background-color:#F17F7F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 560px;
+        left:15px;
+    }
+    .icon{
+        width:25px;
+        height:15px;
+        background-image: url(./Screenshot\ 2024-07-12\ 112956.png);
+        background-size: 100% 100%;
+        background-color: gray;
+        position: absolute;
+        top: 5px;
+        left: 15px;
+    }
+    .computer{
+        width: 20px;
+        height: 15px;
+        position: absolute;
+        top: 5px;
+        left: 200px;
+        display: none;
+    }
+    .laptop{
+        width: 20px;
+        height: 15px;
+        position:absolute;
+        top: 5px;
+        left: 230px;
+        display: none;
+    }
+    .tab{
+        width: 15px;
+        height: 20px;
+        position: absolute;
+        top:5px;
+        left:260px;
+        display: none;
+    }
+    .mobile{
+        width: 15px;
+        height: 20px;
+        position: absolute;
+        top: 5px;
+        left: 290px;
+        display: none;
+    }
+    .smobile{
+        width: 15px;
+        height: 20px;
+        position: absolute;
+        top: 5px;
+        left: 320px;
+        display: none;
+    }
+    .cross{
+        width: 15px;
+        height:16px;
+        position: absolute;
+        top: 5px;
+        left: 400px;
+        font-size: 15px;
+        display: none;
+    }
+}

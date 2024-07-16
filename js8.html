@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./js8.css">
+    <script src="./js8.js"></script>
+</head>
+<body>
+    <div class="regform"> 
+    <form action="RegistartionForm">
+        <h1>REGISTRASTION FORM</h1>
+    <label for="First Name"> First Name:</label><br><br>
+    <input type="text" placeholder="Enter a firstname" onchange="fun(event)" id="fn"><br><br>
+    <label for="Last Name">Last Name:</label><br><br>
+    <input type="text" placeholder="Enter a Lastname" onchange="fun1(event)" id="ln"><br><br>
+    <label for="Mother Name">Mother Name:</label><br><br>
+    <input type="text" placeholder="Enter a Mothername" onchange="fun15(event)" id="mn"><br><br>
+    <label for="Father Name">Father Name:</label><br><br>
+    <input type="text" placeholder="Enter a Fathername" onchange="fun16(event)" id="f"><br><br>
+    <label for="Address">Address:</label><br><br>
+    <input type="text" placeholder="Enter address" onchange="fun2(event)" id="ad"><br><br>
+    <label for="Mobile Number">Mobile Number:</label><br><br>
+    <input type="text" placeholder="enter a mobilenumber" onchange="fun3(event)" id="m"><br><br>
+    <label for="Email">Email:</label><br><br>
+    <input type="text" placeholder="enter a Email" onchange="fun4(event)" id="e"><br><br>
+    <label for="dob">Date of birth:</label><br><br>
+    <input type="date" placeholder="Date of Birth" onchange="fun5(event)" id="dob"><br><br>
+    <label for="college">College:</label><br><br>
+    <input type="text" placeholder="Enter a college" onchange="fun6(event)" id="c"><br><br>
+    <label for="Gender">Gender</label><br><br>
+    <input type="radio" id="male" name="Gender" value="Male" onchange="fun7(event)"><span>Male</span>
+    <input type="radio" id="Female" name="Gender" value="Female" onchange="fun8(event)"><span>Female</span>
+    <input type="radio" id="others" name="Gender" value="others" onchange="fun9(event)"><span>Others</span><br><br>
+    <label for="certifications">Certifications:</label><br><br>
+    <input type="text" onchange="fun10(event)" id="cert"><br><br>
+    <label for="qualifications">Qualifications:</label><br><br>
+    <table border="3px" id="tab">
+        <tr>
+            <th>N.I</th>
+        <th>Y.O.P</th>
+        <th>PERCENTAGE</th>
+    </tr>
+    <tr>
+        <td>SSC</td>
+        <td><input type="text" placeholder="10th passedout" value="2020" onchange="fun17(event)"></td>
+        <td><input type="text" placeholder="10th percentage" value="100" onchange="fun18(event)"></td>
+    </tr>
+    <tr>
+        <td>INTER</td>
+        <td><input type="text" placeholder="12th passedout"value="2023" onchange="fun19(event)"></td>
+        <td><input type="text" placeholder="12th percentage"value="100" onchange="fun20(event)"></td>
+    </tr>
+    <tr>
+        <td>B.Tech</td>
+        <td><input type="text" placeholder=" passedout"value="2025" onchange="fun21(event)"></td>
+        <td><input type="text" placeholder=" percentage" value="100"onchange="fun22(event)"></td>
+    </tr>
+    </table><br><br>
+    <label for="skills">skills:</label><br><br>
+    <input type="text" onchange="fun11(event)" id="s"><br><br>
+    <label for="Hobbies">Hobbies:</label><br><br>
+    <input type="text" onchange="fun12(event)" id="h"><br><br>
+    <label for="Badges">Badges:</label><br><br>
+    <input type="text" onchange="fun13(event)" id="b"><br><br>
+    <label for="Description">Description:</label><br><br>
+    <input type="text" onchange="fun14(event)" id="d"><br><br>
+    <button onclick="send_data(event)">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

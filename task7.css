@@ -1,0 +1,151 @@
+#im{
+    position: relative;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: 9px;
+    left: 117px;
+}
+#fu{
+    position: relative;
+    top: 120px;
+    left: 126px;
+    font-size: 14px;
+    color: gray;
+}
+#ba{
+    position: relative;
+    top: 126px;
+    left: 107px;
+    font-size: 14px;
+    color: gray;
+}
+#jo{
+    position: relative;
+    top: 116px;
+    left: 130px;
+    font-size: 29px;
+    
+}
+.child1{
+    width: 50px;
+    height: 23px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    border-radius: 3px;
+    top: 136px;
+    left: 107px;
+}
+.child2{
+    width: 57px;
+    height: 19px;
+    background-color: white;
+    color: blue;
+    position: relative;
+    border-radius: 3px;
+    border-style: solid;
+    top: 113px;
+    left: 165px;
+}
+.GraphWrapper{
+    width: 100%;
+    height: 6px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+.line{
+    width: 80%;
+    background-color: aliceblue;
+    height: 2px;
+    position: relative;
+    top: 126px;
+    left: 37px;
+}
+.bold{
+   position: relative;
+   top:147px;
+   left: 51px;
+}
+.bold1{
+    position: relative;
+    top:177px;
+    left: 51px;
+ }
+ .bold2{
+    position: relative;
+    top:207px;
+    left: 51px;
+ }
+ .bold3{
+    position: relative;
+    top:237px;
+    left: 51px;
+ }
+ .bold4{
+    position: relative;
+    top:267px;
+    left: 51px;
+ }
+ .line1{
+    width: 80%;
+    background-color: aliceblue;
+    height: 2px;
+    position: relative;
+    top: 159px;
+    left: 37px;
+}
+.line2{
+    width: 80%;
+    background-color: aliceblue;
+    height: 2px;
+    position: relative;
+    top: 190px;
+    left: 37px;
+}
+.line3{
+    width: 80%;
+    background-color: aliceblue;
+    height: 2px;
+    position: relative;
+    top: 221px;
+    left: 37px;
+}
+.line4{
+    width: 80%;
+    background-color: aliceblue;
+    height: 2px;
+    position: relative;
+    top: 253px;
+    left: 37px;
+}
+.bold11{
+    position: relative;
+    top:-282px;
+    left: 194px;
+    color: gray;
+ }
+ .bold12{
+     position: relative;
+     top:32px;
+     left: 74px;
+     color: gray;
+  }
+  .bold23{
+     position: relative;
+     top:32px;
+     left: -13px;
+     color: gray;
+  }
+  .bold34{
+     position: relative;
+     top:35px;
+     left: 12px;
+     color: gray;
+  }
+  .bold45{
+     position: relative;
+     top:29px;
+     left: 1px;
+     color: gray;
+  }

@@ -1,0 +1,53 @@
+/* .parent{
+    /* width: 200px;
+    height: 200px;
+    background-color: blue; */
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 2s; */
+    /* transition: all 2s ease-in-out 2s; */
+    /* list-style-type: none;
+ } */
+
+/* .parent:hover{
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+} */
+ /* .parent li::after{
+    content: "sri";
+ } */
+  button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid #e728e7;
+    position: relative;
+    text-align: center;
+    transition: all 2s;
+    overflow: hidden;
+    
+  }
+  button:hover{
+    color: white;
+    z-index: 9999;
+
+  }
+
+button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:-100px;
+    background-color:#e728e7 ;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid #e728e7;
+    transition: all 2s;
+  }
+  button:hover::before{
+    left: 0;
+    z-index: -9999;
+  }

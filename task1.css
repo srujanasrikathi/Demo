@@ -1,0 +1,67 @@
+.rectangle{
+    width: 100%;
+    height: 581px;
+    background-color: burlywood;
+}
+.sc{
+    width: 390px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.palat1{
+    width: 100%;
+    height: 34px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.child{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    border-radius: 5px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p{
+   background-color:rgb(17, 235, 17);
+}
+#h{
+    background-color: rgb(127, 209, 237);
+}
+#a{
+    background-color: rgb(230, 71, 102);
+}
+.palat2{
+    width: 300px;
+    height: 479px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 30px silver;
+    top: 25px;
+    left: 13px;
+    position: relative;
+
+}
+.palat3{
+    width: 813px;
+    height: 275px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 30px silver;
+    top: -471px;
+    left: 350px;
+    position: relative;
+} 
+.palat4{
+   width: 813px;
+    height: 224px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 30px silver;
+    top: -463px;
+    left: 350px;
+    position: relative;
+}

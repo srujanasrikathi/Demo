@@ -1,0 +1,84 @@
+body {
+    margin: 30px;
+}
+table {
+    border-collapse: collapse;
+    background: radial-gradient(rgb(140, 247, 247),#1c6d6d,rgb(140, 247, 247));
+}
+td, th {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+}
+.icon,.target-icon {
+    width: 50px; 
+    height: 50px;
+    background-color: palegoldenrod;
+    line-height: 50px; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left{
+    background-color: blanchedalmond;
+}
+#left:hover{
+    background-color: cornflowerblue;
+}
+#right{
+    background-color: blanchedalmond;
+}
+#right:hover{
+    background-color: cornflowerblue;
+}
+#up{
+    background-color: blanchedalmond;
+}
+#up:hover{
+    background-color: cornflowerblue;
+}
+#down{
+    background-color: blanchedalmond;
+}
+#down:hover{
+    background-color: cornflowerblue;
+}
+#createTable{
+    background-color: blanchedalmond;
+}
+#createTable:hover{
+background-color:cornflowerblue ;
+}
+#score {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#Table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+#Table td {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.icon, .target-icon {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px; /* Adjust based on cell height */
+/* } */
+
+/* #score {
+    font-size: 24px;
+    margin-bottom: 20px;
+} */ 

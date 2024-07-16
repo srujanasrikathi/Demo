@@ -1,0 +1,101 @@
+.parent{
+    width: 100%;
+    height: 100svh;
+    background-color: white;
+
+}
+.child{
+    width: 500px;
+    height: 300px;
+    background-color:white;
+    border-radius: 13px;
+    box-shadow: 0 0 25px rgb(22, 22, 219);
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.c{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: -271px;
+    left: 30px;
+    border-radius: 15px;
+}
+.c1{
+   
+    position: relative;
+    top: -242px;
+    left: 12px;
+    border-radius: 15px;   
+}
+.c2{
+    position: relative;
+    top: -391px;
+    left: 370px;
+}
+.c3{
+    position: relative;
+    top: -287px;
+    left: 384px;
+    border-radius: 15px;
+}
+.c4{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: relative;
+    top: -480px;
+    left: 378px;
+}
+.c5{
+    font-size: 9px;
+    color: white;
+    font-style: italic;
+    position: relative;
+    top: -478px;
+    left: 378px;
+    letter-spacing: 5px;
+}
+.c6{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 167px;
+    left: 97px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+.c7{
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    top: 210px;
+    left: 173px;
+    font-style: italic;
+}
+.c8{
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    top: 222px;
+    left: 173px;
+    font-style: italic;
+}
+.c9{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 207px;
+    left: 202px;
+    font-style: italic;
+}
+.c10{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 245px;
+    left: 87px;
+    font-style: italic;
+}
