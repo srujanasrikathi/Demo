@@ -1,0 +1,343 @@
+/* body {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackhole {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, black, gray, black);
+    border-radius: 50%;
+    box-shadow: 0 0 100px 50px black;
+}
+
+.planet {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, red, orange);
+    border-radius: 50%;
+    animation: suck 5s linear infinite;
+}
+
+.planet1 { top: 0; left: 50%; }
+.planet2 { bottom: 0; right: 50%; }
+.planet3 { top: 50%; right: 0; }
+
+@keyframes suck {
+    0% { transform: scale(1) translate(0, 0); }
+    100% { transform: scale(0.1) translate(-50px, -50px); }
+} */
+
+
+
+/* body {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.blackhole {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, black, gray, black);
+    border-radius: 50%;
+    box-shadow: 0 0 100px 50px black;
+    z-index: 10;
+}
+
+.content-wrapper {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    animation: suck 5s linear infinite;
+}
+
+.content:nth-child(1) { top: 0; left: 50%; transform-origin: 50px 50px; }
+.content:nth-child(2) { bottom: 0; right: 50%; transform-origin: -50px 50px; }
+.content:nth-child(3) { top: 50%; right: 0; transform-origin: 50px -50px; }
+
+@keyframes suck {
+    0% {
+        transform: scale(1) translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.1) translate(-50px, -50px) rotate(360deg);
+        opacity: 0;
+    }
+} */
+
+
+/* 
+body {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.blackhole {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, black, gray, black);
+    border-radius: 50%;
+    box-shadow: 0 0 100px 50px black;
+    z-index: 10;
+}
+
+.content-wrapper {
+    position: absolute;
+}
+
+.content {
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    animation: suck 5s linear infinite;
+}
+
+.content:nth-child(1) { top: 0; left: 50%; transform-origin: 50% 50%; }
+.content:nth-child(2) { bottom: 0; right: 50%; transform-origin: 50% 50%; }
+.content:nth-child(3) { top: 50%; right: 0; transform-origin: 50% 50%; }
+
+@keyframes suck {
+    0% {
+        transform: scale(1) translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.1) translate(-50%, -50%) rotate(360deg);
+        opacity: 0;
+    }
+} */
+
+/* 
+body {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.blackhole {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, black, gray, black);
+    border-radius: 50%;
+    box-shadow: 0 0 100px 50px black;
+    z-index: 10;
+}
+
+.content-wrapper {
+    position: absolute;
+}
+
+.content {
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    animation: orbit 5s linear infinite, suck 5s linear infinite;
+    transform-origin: center center;
+}
+
+.content:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform-origin: 0 200px;
+}
+
+.content:nth-child(2) {
+    bottom: 0;
+    right: 50%;
+    transform-origin: 200px 0;
+}
+
+.content:nth-child(3) {
+    top: 50%;
+    right: 0;
+    transform-origin: 200px 200px;
+}
+
+@keyframes orbit {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes suck {
+    0% {
+        transform: scale(1) translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.1) translate(-50%, -50%) rotate(360deg);
+        opacity: 0;
+    }
+} */
+
+
+
+
+
+/* body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .singularity-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .singularity {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    box-shadow: .375rem .375rem 2rem .625rem rgba(232, 144, 4, 0.5);
+    background: black;
+    position: absolute;
+    z-index: 1;
+    animation: consume 2s 26
+  }
+  
+  .star {
+      width: .25rem;
+      height: .25rem;
+      border-radius: 50%;
+    opacity: .75;
+      background-color: white;
+    position: absolute;
+    
+  }
+  
+  @keyframes consume {
+    50% {
+      box-shadow: 2rem 2rem 16rem 4rem rgba(232, 144, 4, 1);
+    }
+    100% {
+      box-shadow: .375rem .375rem 2rem .625rem rgba(232, 144, 4, 0.5);
+    }
+  }
+  
+  .credit {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    color: white;
+    
+    .credit--link {
+      color: #1565C0;
+      text-decoration: none;
+      cursor: pointer;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  } */
+
+
+
+
+
+
+
+
+
+  body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.singularity-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.singularity {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    box-shadow: .375rem .375rem 2rem .625rem rgba(232, 144, 4, 0.5);
+    background: black;
+    position: absolute;
+    z-index: 1;
+    animation: consume 2s infinite;
+}
+
+.star {
+    width: .25rem;
+    height: .25rem;
+    border-radius: 50%;
+    opacity: .75;
+    background-color: white;
+    position: absolute;
+}
+
+@keyframes consume {
+    50% {
+        box-shadow: 2rem 2rem 16rem 4rem rgba(232, 144, 4, 1);
+    }
+    100% {
+        box-shadow: .375rem .375rem 2rem .625rem rgba(232, 144, 4, 0.5);
+    }
+}
+
+

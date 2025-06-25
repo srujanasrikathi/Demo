@@ -1,9 +1,22 @@
 body {
-    margin: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-table {
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Table {
     border-collapse: collapse;
     background: radial-gradient(rgb(140, 247, 247),#1c6d6d,rgb(140, 247, 247));
+    margin: 50px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
 }
 td, th {
     border: 5px solid black;
@@ -23,30 +36,47 @@ td, th {
 }
 #left{
     background-color: blanchedalmond;
+    position: absolute;
+    left: 807px;
+    top: 296px;
+    
 }
 #left:hover{
     background-color: cornflowerblue;
 }
 #right{
     background-color: blanchedalmond;
+    position: absolute;
+    left: 975px;
+    top: 296px;
 }
 #right:hover{
     background-color: cornflowerblue;
 }
 #up{
     background-color: blanchedalmond;
+    position: absolute;
+    left: 892px;
+    top: 264px;
+
 }
 #up:hover{
     background-color: cornflowerblue;
 }
 #down{
     background-color: blanchedalmond;
+    position: absolute;
+    left: 887px;
+    top: 327px;
 }
 #down:hover{
     background-color: cornflowerblue;
 }
 #createTable{
     background-color: blanchedalmond;
+    position: absolute;
+    left: 857px;
+    top: 296px;
 }
 #createTable:hover{
 background-color:cornflowerblue ;
@@ -54,31 +84,7 @@ background-color:cornflowerblue ;
 #score {
     font-size: 24px;
     margin-bottom: 20px;
+    position: absolute;
+    left: 831px;
+    top: 30px;
 }
-/* body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
-}
-
-#Table {
-    border-collapse: collapse;
-    margin: 20px auto;
-}
-
-#Table td {
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-}
-
-.icon, .target-icon {
-    font-size: 30px;
-    text-align: center;
-    line-height: 50px; /* Adjust based on cell height */
-/* } */
-
-/* #score {
-    font-size: 24px;
-    margin-bottom: 20px;
-} */ 

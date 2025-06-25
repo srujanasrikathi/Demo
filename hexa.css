@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background: url(ommm.jpg); */
+    background-color: #0D2341;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+    background-image: url(./image.png);
+    background-size: cover;
+}
+.main img{
+    border-radius: 50%;
+}
+.hex{
+    position: absolute;
+    top: 300px;
+    left: 230px;
+}
+.hex1{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+
+}
+.hex2{
+    position: absolute;
+    top: 180px;
+    left: 160px;
+}
+.hex3{
+    position: absolute;
+    top: 5px;
+    left: 390px;
+}
+.hex4{
+    position: absolute;
+    top: 0px;
+    left: 185px;
+}
+.hex5{
+    position: absolute;
+    top: 315px;
+    left: 370px;
+}
+.hex6{
+    position: absolute;
+    top: 160px;
+    left: 470px;
+}
+.hex7{
+    position: absolute;
+    top: 350px;
+    left: 540px;
+}
+.hex8{
+    position: absolute;
+    top: -5px;
+    left: 565px;
+}
+ .hex3 .hexagon{
+    width: 160px;  
+    height: 98px;
+}
+.hex4 .hexagon{
+    width: 190px;  
+    height: 112px;
+}
+.hex5 .hexagon{
+    width: 160px;  
+    height: 98px;
+}
+.hex6 .hexagon{
+    width: 190px;  
+    height: 112px;
+}
+.hex7 .hexagon{
+    width: 160px;  
+    height: 98px;
+}
+.hex8 .hexagon{
+    width: 160px;  
+    height: 98px;
+    background-image: url(./venus.png);
+    background-size: 100% 100%;
+}
+.hexagon { 
+    top: 30vh; 
+    left: 40%; 
+    position: absolute; 
+    margin: 0 auto; 
+    background-color:#132d53; 
+    box-shadow: 0px 0px 15px #10F0FC; 
+    /* background-image: url(./venus.png);
+    background-size: 100% 100%; */
+    border-radius: 10px;
+    width: 130px;  
+    height: 79px;
+    box-sizing: border-box; 
+    transition: all 1s; 
+    border: 0.4vh solid transparent; 
+} 
+.hexagon::before, .hexagon::after { 
+    content: ""; 
+    border: inherit; 
+    position: absolute; 
+    top: -0.5vh; 
+    left: -0.5vh; 
+    background-color:#132d53; 
+    background-image: url(./venus.png);
+    background-size: cover;
+    border-radius: inherit; 
+    height: 100%; 
+    width: 100%; 
+} 
+.hexagon::before { 
+    transform: rotate(60deg); 
+} 
+.hexagon::after { 
+    transform: rotate(-60deg); 
+} 
+.hex1 .hexagon{
+    width: 200px;  
+    height: 120px; 
+}
+.name{
+    width: 500px;
+    height: 50px;
+    /* background-color: black; */
+    color: #cc9328;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+#hexagon1 img{
+    width: 200px;
+    height: auto;position: absolute;left: 115px;top: -40px;
+    object-fit: cover;
+    display: block;
+    z-index: 2;
+}
+#hexagon2 img{
+    width: 170px;
+    height: auto;position: absolute;left: 185px;top: -20px;
+    object-fit: cover;
+    display: block;
+    z-index: 2;
+}
+#hexagon3 img{
+    width: 170px;
+    height: auto;position: absolute;left: -115px;top: 90px;
+    object-fit: cover;
+    display: block;
+    z-index: 2; 
+}
+#hexagon4 img{
+    width: 300px;
+    height: auto;position: absolute;left: -280px;top: -100px;
+    object-fit: cover;
+    display: block;
+    z-index: 2; 
+}
+#hexagon5 img{
+    width: 250px;
+    height: auto;position: absolute;left: 255px;top: 110px;
+    object-fit: cover;
+    display: block;
+    z-index: 2; 
+}
+#hexagon6 img{
+    width: 100px;
+    height: auto;position: absolute;left: -197px;top: -150px;
+    object-fit: cover;
+    display: block;
+    z-index: 2; 
+}
+#hexagon7 img{
+    width: 200px;
+    height: auto;position: absolute;left: 80px;top: -200px;
+    object-fit: cover;
+    display: block;
+    z-index: 3; 
+}
+#hexagon8 img{
+    width: 130px;
+    height: auto;position: absolute;left: -137px;top: -365px;
+    object-fit: cover;
+    display: block;
+    z-index: 3; 
+}
+#hexagon9 img{
+    width: 200px;
+    height: auto;position: absolute;left: -55px;top: 300px;
+    object-fit: cover;
+    display: block;
+    z-index: 3; 
+}
+.branch1{
+    width: 150px;
+    /* background-color: black; */
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name1{
+    font-size: 18px;
+    color: #cc9328;
+    font-weight: bold;
+}
+.dept1{
+    font-size: 12px;
+    color: #cc9328;
+}
+.date{
+    width: 150px;
+    position: absolute;
+    /* background-color: black; */
+    top: 350px;
+    left: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 32px;
+    color: #cc9328;
+    font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}

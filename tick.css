@@ -1,0 +1,107 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(20, 163, 20);
+    border-radius:100px;
+    animation-name: tick;
+    animation-duration: 2s;
+   margin-top: 100px;
+}
+@keyframes tick{
+    0%{
+        transform:scale(0.1);
+    }
+}
+.tick{
+width:fit-content;
+height:fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+animation-name: tick1;
+animation-duration: 2s;
+}
+.tick img{
+    width: 150px;
+    height: 150px;
+}
+@keyframes tick1{
+    0%{
+        transform:scale(0.1);
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(20, 163, 20);
+        border-radius: 50%;
+        animation-name: tick;
+        animation-duration: 2s;
+        position: absolute;
+        top: 30%;
+    }
+
+    .tick {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: tick1;
+        animation-duration: 2s;
+    }
+
+    .tick img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .success {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%; /* Adjust width as needed */
+        height: auto; /* Adjust height to fit content */
+        font-size: 18px; /* Adjust size as needed */
+        font-weight: 500;
+        font-style: normal;
+        color: rgb(20, 163, 20);
+        position: absolute;
+        top: 45%; /* Adjust position as needed */
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        animation-name: success;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+    }
+
+    .para, .anchor {
+        position: absolute;
+        top: 60%; /* Adjust position as needed */
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px; /* Adjust size as needed */
+        text-align: center;
+    }
+}

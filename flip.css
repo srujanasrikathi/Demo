@@ -1,0 +1,51 @@
+.cardp{
+    width: 20%;
+    height:50vh;
+    /* background-color: yellow; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.front{
+    width:100%;
+    height:100%;
+    background-color: blue;
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back{
+    width:100%;
+    height:100%;
+    background-color:black;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

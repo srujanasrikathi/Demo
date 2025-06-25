@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: #0D2341;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    background-image: url(./image.png);
+    background-size: cover;
+}
+
+.main img {
+    border-radius: 50%;
+}
+
+.hex {
+    position: absolute;
+    top: 300px;
+    left: 230px;
+}
+
+.hex1 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+
+.hex2 {
+    position: absolute;
+    top: 180px;
+    left: 160px;
+}
+
+.hex3 {
+    position: absolute;
+    top: 5px;
+    left: 390px;
+}
+
+.hex4 {
+    position: absolute;
+    top: 0px;
+    left: 185px;
+}
+
+.hex5 {
+    position: absolute;
+    top: 315px;
+    left: 370px;
+}
+
+.hex6 {
+    position: absolute;
+    top: 160px;
+    left: 470px;
+}
+
+.hex7 {
+    position: absolute;
+    top: 350px;
+    left: 540px;
+}
+
+.hex8 {
+    position: absolute;
+    top: -5px;
+    left: 565px;
+}
+
+.hexagon {
+    width: 130px;
+    height: 79px;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: all 1s;
+    border: 0.4vh solid transparent;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hexagon1 {
+    background-image: url(./VOLT.png);
+}
+
+.hexagon2 {
+    width: 200px;
+    height: 120px;
+}
+
+.hexagon9 {
+    background-image: url(./venus.png);
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    border: inherit;
+    position: absolute;
+    top: -0.5vh;
+    left: -0.5vh;
+    background-color: black;
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    transform: rotate(60deg);
+}
+
+.hexagon:after {
+    transform: rotate(-60deg);
+}
+
+/* Adjust the hexagon sizes as needed */
+.hex3 .hexagon {
+    width: 160px;
+    height: 98px;
+}
+
+.hex4 .hexagon {
+    width: 190px;
+    height: 112px;
+}
+
+.hex5 .hexagon {
+    width: 160px;
+    height: 98px;
+}
+
+.hex6 .hexagon {
+    width: 190px;
+    height: 112px;
+}
+
+.hex7 .hexagon {
+    width: 160px;
+    height: 98px;
+}
+
+.hex8 .hexagon {
+    width: 160px;
+    height: 98px;
+}
+
+.name {
+    width: 500px;
+    height: 50px;
+    color: #cc9328;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}

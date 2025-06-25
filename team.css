@@ -78,13 +78,13 @@
     top: 500px;
     left: 347px;
 }
-.line{
-    width: 50px;
+    .line{
+        width: 50px;
     height: 10px;
-    font-size: 5px;
+    font-size: 10px;
     position: absolute;
-    top: 1000px;
-    left: 387px;
+    top: 510px;
+    left: 388px;
     color: gray;
 }
 

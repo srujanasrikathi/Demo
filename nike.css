@@ -1,0 +1,1260 @@
+.parent1{
+    width: 100%;
+    height: 100svh;
+    background-color: rgb(218, 101, 101);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.red1{
+    width:50%;
+    height: 60svh;
+    background-color: rgb(197, 2, 2);
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nike{
+    width: 200px;
+    height: 200px;
+    background-image: url(./nike-removebg-preview.png);
+    background-size: 100% 100%;
+}
+.options1{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(197, 2, 2);;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+}
+.nike_s{
+    background-image: url(./Nike-symbol-removebg-preview.png);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 30px;
+    position:absolute;
+    left: 30px;
+    top: 0px;
+}
+.new_releases{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 120px;
+    top: 5px;
+}
+.men{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 240px;
+    top: 5px;
+}
+.women{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 280px;
+    top: 5px;
+}
+.kids{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 350px;
+    top: 5px;
+}
+.customize{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 400px;
+    top: 5px;
+}
+.person{
+    position:absolute;
+    left: 530px;
+    top: 5px;
+    color: white;
+}
+.cart{
+    position:absolute;
+    left: 560px;
+    top: 5px;
+    color: white;
+}
+.shoe_b{
+    width: 100px;
+    height: 200px;
+    background-image: url(./Screenshot_2024-07-17_234606-removebg-preview.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 259px;
+    top: 60px;
+    transform: all 2s;
+    transform: rotate(10deg);
+    animation-name: nike_red;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes nike_red{
+    0%{
+        left: 500px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.jordan{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+.release{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 105px;
+    left: 30px;
+    opacity: 0.8;
+}
+.date{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    opacity: 0.8;
+}
+
+.color{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 135px;
+    left: 30px;
+    opacity: 0.8;
+}
+.sail{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    opacity: 0.8;
+}
+.select{
+    font-size:20px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    
+}
+.sizes1{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
+#size1{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+}
+.sizes2{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+#size2{
+    font-size: 15px;
+    color: white;
+}
+.sizes3{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 90px;
+}
+#size3{
+    font-size: 15px;
+    color: white;
+}
+.sizes4{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 130px;
+}
+#size4{
+    font-size: 15px;
+    color: white;
+}
+.sizes5{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 170px;
+}
+#size5{
+    font-size: 15px;
+    color: white;
+}
+.sizes6{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+}
+#size6{
+    font-size: 15px;
+    color: white;
+}
+.sizes7{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+#size7{
+    font-size: 15px;
+    color: white;
+}
+.sizes8{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 90px;
+}
+#size8{
+    font-size: 15px;
+    color: white;
+}
+.sizes9{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 130px;
+}
+#size9{
+    font-size: 15px;
+    color: white;
+}
+.sizes10{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 170px;
+}
+#size10{
+    font-size: 15px;
+    color: white;
+}
+.select_color{
+    font-size:20px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+.red_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(197, 2, 2);
+    position: absolute;
+    top: 325px;
+    left: 30px;
+}
+.blue_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color:rgb(0, 85, 255);
+    position: absolute;
+    top: 325px;
+    left: 60px;
+}
+.green_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(11, 223, 227);
+    position: absolute;
+    top: 325px;
+    left: 90px;
+}
+.vedio{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.play{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 301px;
+    left: 330px;
+}
+.content{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left:400px;
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top:300px;
+    left:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftarr{
+    color: white;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top:300px;
+    left:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rightarr{
+    color: white;
+}
+.circle1:hover{
+   border: 2px solid black;
+}
+.circle2:hover{
+    border: 2px solid black;
+ }
+ .parent2{
+    width: 100%;
+    height: 100svh;
+    background-color: rgb(0, 85, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue1{
+    width:50%;
+    height: 60svh;
+    background-color: rgb(27, 78, 179);
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nike{
+    width: 200px;
+    height: 200px;
+    background-image: url(./nike-removebg-preview.png);
+    background-size: 100% 100%;
+}
+.options2{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(27, 78, 179);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+}
+.nike_s{
+    background-image: url(./Nike-symbol-removebg-preview.png);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 30px;
+    position:absolute;
+    left: 30px;
+    top: 0px;
+}
+.new_releases{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 120px;
+    top: 5px;
+}
+.men{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 240px;
+    top: 5px;
+}
+.women{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 280px;
+    top: 5px;
+}
+.kids{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 350px;
+    top: 5px;
+}
+.customize{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 400px;
+    top: 5px;
+}
+.person{
+    position:absolute;
+    left: 530px;
+    top: 5px;
+    color: white;
+}
+.cart{
+    position:absolute;
+    left: 560px;
+    top: 5px;
+    color: white;
+}
+.shoe_g{
+    width: 100px;
+    height: 200px;
+    background-image: url(./Screenshot_2024-07-17_234045-removebg-preview.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 259px;
+    top: 50px;
+    animation-name: nike_red;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes nike_red{
+    0%{
+        left: 500px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.jordan{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+.release{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 105px;
+    left: 30px;
+    opacity: 0.8;
+}
+.date{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    opacity: 0.8;
+}
+
+.color{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 135px;
+    left: 30px;
+    opacity: 0.8;
+}
+.sail{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    opacity: 0.8;
+}
+.select{
+    font-size:20px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    
+}
+.sizes1{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
+#size1{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+}
+.sizes2{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+#size2{
+    font-size: 15px;
+    color: white;
+}
+.sizes3{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 90px;
+}
+#size3{
+    font-size: 15px;
+    color: white;
+}
+.sizes4{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 130px;
+}
+#size4{
+    font-size: 15px;
+    color: white;
+}
+.sizes5{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 170px;
+}
+#size5{
+    font-size: 15px;
+    color: white;
+}
+.sizes6{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+}
+#size6{
+    font-size: 15px;
+    color: white;
+}
+.sizes7{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+#size7{
+    font-size: 15px;
+    color: white;
+}
+.sizes8{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 90px;
+}
+#size8{
+    font-size: 15px;
+    color: white;
+}
+.sizes9{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 130px;
+}
+#size9{
+    font-size: 15px;
+    color: white;
+}
+.sizes10{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 170px;
+}
+#size10{
+    font-size: 15px;
+    color: white;
+}
+.select_color{
+    font-size:20px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+.red_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(197, 2, 2);
+    position: absolute;
+    top: 325px;
+    left: 30px;
+}
+.blue_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color:rgb(0, 85, 255);
+    position: absolute;
+    top: 325px;
+    left: 60px;
+}
+.green_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(11, 223, 227);
+    position: absolute;
+    top: 325px;
+    left: 90px;
+}
+.vedio{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.play{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 301px;
+    left: 330px;
+}
+.content{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left:400px;
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top:300px;
+    left:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftarr{
+    color: white;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top:300px;
+    left:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rightarr{
+    color: white;
+}
+.circle1:hover{
+   border: 2px solid black;
+}
+.circle2:hover{
+    border: 2px solid black;
+ }
+ .parent3{
+    width: 100%;
+    height: 100svh;
+    background-color:rgb(11, 223, 227);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.green1{
+    width:50%;
+    height: 60svh;
+    background-color: rgb(37, 148, 150);
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nike{
+    width: 200px;
+    height: 200px;
+    background-image: url(./nike-removebg-preview.png);
+    background-size: 100% 100%;
+}
+.options3{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(37, 148, 150);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+}
+.nike_s{
+    background-image: url(./Nike-symbol-removebg-preview.png);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 30px;
+    position:absolute;
+    left: 30px;
+    top: 0px;
+}
+.new_releases{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 120px;
+    top: 5px;
+}
+.men{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 240px;
+    top: 5px;
+}
+.women{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 280px;
+    top: 5px;
+}
+.kids{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 350px;
+    top: 5px;
+}
+.customize{
+    font-size: 15px;
+    color: white;
+    position:absolute;
+    left: 400px;
+    top: 5px;
+}
+.person{
+    position:absolute;
+    left: 530px;
+    top: 5px;
+    color: white;
+}
+.cart{
+    position:absolute;
+    left: 560px;
+    top: 5px;
+    color: white;
+}
+.shoe_r{
+    width: 100px;
+    height: 200px;
+    background-image: url(./Screenshot__15_-removebg-preview.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 259px;
+    top: 50px;
+    animation-name: nike_red;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes nike_red{
+    0%{
+        left: 500px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 300px;
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.jordan{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+.release{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 105px;
+    left: 30px;
+    opacity: 0.8;
+}
+.date{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    opacity: 0.8;
+}
+
+.color{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 135px;
+    left: 30px;
+    opacity: 0.8;
+}
+.sail{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    opacity: 0.8;
+}
+.select{
+    font-size:20px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    
+}
+.sizes1{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
+#size1{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+}
+.sizes2{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+#size2{
+    font-size: 15px;
+    color: white;
+}
+.sizes3{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 90px;
+}
+#size3{
+    font-size: 15px;
+    color: white;
+}
+.sizes4{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 130px;
+}
+#size4{
+    font-size: 15px;
+    color: white;
+}
+.sizes5{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 170px;
+}
+#size5{
+    font-size: 15px;
+    color: white;
+}
+.sizes6{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+}
+#size6{
+    font-size: 15px;
+    color: white;
+}
+.sizes7{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+#size7{
+    font-size: 15px;
+    color: white;
+}
+.sizes8{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 90px;
+}
+#size8{
+    font-size: 15px;
+    color: white;
+}
+.sizes9{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 130px;
+}
+#size9{
+    font-size: 15px;
+    color: white;
+}
+.sizes10{
+    width: 30px;
+    height: 30px;
+    border:2px solid white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 170px;
+}
+#size10{
+    font-size: 15px;
+    color: white;
+}
+.select_color{
+    font-size:20px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+.red_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(197, 2, 2);
+    position: absolute;
+    top: 325px;
+    left: 30px;
+}
+.blue_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color:rgb(0, 85, 255);
+    position: absolute;
+    top: 325px;
+    left: 60px;
+}
+.green_c{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(11, 223, 227);
+    position: absolute;
+    top: 325px;
+    left: 90px;
+}
+.vedio{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.play{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 301px;
+    left: 330px;
+}
+.content{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left:400px;
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top:300px;
+    left:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftarr{
+    color: white;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    top:300px;
+    left:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rightarr{
+    color: white;
+}
+.circle1:hover{
+   border: 2px solid black;
+}
+.circle2:hover{
+    border: 2px solid black;
+ }
+ 

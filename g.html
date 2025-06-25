@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Widget Layout</title>
+    <link rel="stylesheet" href="g.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side Empty -->
+        <div class="left-side"></div>
+
+        <!-- Right Side Widgets -->
+        <div class="right-side">
+            <!-- Tab Widget -->
+            <div class="tab-widget">
+                <ul class="tabs">
+                    <li class="tab active" data-tab="about">About Me</li>
+                    <li class="tab" data-tab="experience">Experiences</li>
+                    <li class="tab" data-tab="recommended">Recommended</li>
+                </ul>
+                <div class="tab-content" id="about">
+                    <p>I'm trying to work on Frontend Development.</p>
+                </div>
+                <div class="tab-content" id="experience" style="display: none;">
+                    <p>I'm fresher.</p>
+                </div>
+                <div class="tab-content" id="recommended" style="display: none;">
+                    <p>HTML,CSS,JAVASCRIPT.</p>
+                </div>
+            </div>
+
+            <!-- Gallery Widget -->
+            <div class="gallery-widget">
+                <div class="gallery-header">
+                    <h3>Gallery</h3>
+                    <button id="addImageBtn">+ Add Image</button>
+                </div>
+                <div class="gallery">
+                    <div class="gallery-item">Image 1</div>
+                    <div class="gallery-item">Image 2</div>
+                    <div class="gallery-item">Image 3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="g.js"></script>
+</body>
+</html>

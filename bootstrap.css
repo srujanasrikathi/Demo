@@ -1,0 +1,7 @@
+.parent{
+    height: 100svh;
+}
+.child{
+    /* width: 100px; */
+    height: 150px;
+}

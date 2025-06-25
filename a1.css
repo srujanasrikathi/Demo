@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.payment{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+    background-color: white;
+}
+.details{
+    width: 90%;
+    height: 10%;
+    font-size: 40px;
+   font-style: normal;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardnum,.holdername,.cvv,.expiry{
+    width: 70%;
+    height: 7%;
+}
+.cardnum{
+   margin-top: 50px;
+   margin-left: -10px;
+}
+.holdername,.cvv,.expiry{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.pay{
+    width: 17%;
+    height: 7%;
+    background-color: #fac031;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: -20px;
+    margin-bottom:14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media  screen and (min-width:320px) and (max-width:767px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .total{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .payment{
+        width: 80%;
+        height: 54vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        border-radius: 7px;
+        box-shadow: 0 0 10px rgb(0,0,0,0.5);
+        background-color: white;
+    }
+    .details{
+        width: 90%;
+        height: 10%;
+       font-style: normal;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+    
+    }
+    .cardnum,.holdername,.cvv,.expiry{
+        width: 70%;
+        height: 5%;
+    }
+    
+    .cardnum{
+       position: relative;
+       top: -20px;
+       margin-left: -10px;
+    }
+    .holdername,.cvv,.expiry,.cardnum{
+        position: relative;
+       top: -30px;
+       margin-left: -10px;
+    } 
+    .pay{
+        width: 20%;
+        height: 7%;
+        background-color: #fac031;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        top: -20px;
+    }
+
+    
+}

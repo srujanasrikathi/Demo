@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(20, 163, 20);
+    border-radius:100px;
+    animation-name: tick;
+    animation-duration: 2s;
+   margin-top: 100px;
+   position: relative;
+   top: 20px;
+   left: 410px;
+}
+@keyframes tick{
+    0%{
+        transform:scale(0.1);
+    }
+}
+.tick{
+width:fit-content;
+height:fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+animation-name: tick1;
+animation-duration: 2s;
+}
+.tick img{
+    width: 150px;
+    height: 150px;
+}
+@keyframes tick1{
+    0%{
+        transform:scale(0.1);
+    }
+}
+.success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 13px;
+    font-size: 22px;
+    font-weight: 500px;
+    font-style: normal;
+    color: rgb(20, 163, 20);
+    position: relative;
+    top: 250px;
+    left: 80px;
+    animation-name: success;
+    animation-duration: 2s;
+}
+@keyframes success{
+    0%{
+        transform: scale(0.1);
+    }
+}
+.para,.anchor{
+    position: relative;
+    top:320px;
+    left: -350px;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(20, 163, 20);
+        border-radius: 50%;
+        animation-name: tick;
+        animation-duration: 2s;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+    }
+
+    .tick {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: tick1;
+        animation-duration: 2s;
+    }
+
+    .tick img {
+        width: 25px;
+        height: 25px;
+    }
+.success{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%; 
+        height: fit-content; 
+        font-size: 18px; 
+        font-weight: 500;
+        font-style: normal;
+        color: rgb(20, 163, 20);
+        position: absolute;
+        top: 45%; 
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        animation-name: success;
+        animation-duration: 2s; 
+}
+    .para, .anchor {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12px;
+        text-align: center;
+    }
+}

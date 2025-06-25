@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.customer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+    color: #fac031;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.feedback {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -30px;
+}
+
+.feedback_1, .feedback_2, .feedback_3, .feedback_4 {
+    width: 80%;
+    max-width: 500px;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: #222831;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.font1, .font2, .font3, .font4 {
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: justify;
+}
+.feedback-content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-profile1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid #fac031;
+    position: relative;
+    left: -150px;
+}
+.feedback-profile1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.feedback-name1{
+    font-size: 28px;
+    color: white;
+    position: relative;
+    left: -90px;
+}
+.feedback-profile1:hover{
+    transform: scale(1.1);
+}
+.feedback-profile2:hover{
+    transform: scale(1.1);
+}
+.feedback-profile3:hover{
+    transform: scale(1.1);
+}
+.feedback-profile4:hover{
+    transform: scale(1.1);
+}
+.feedback-content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-profile2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid #fac031;
+    position: relative;
+    left: -150px;
+}
+.feedback-profile2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.feedback-name2{
+    font-size: 28px;
+    color: white;
+    position: relative;
+    left: -90px;
+}
+.feedback-content3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-profile3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid #fac031;
+    position: relative;
+    left: -130px;
+}
+.feedback-profile3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.feedback-name3{
+    font-size: 28px;
+    color: white;
+    position: relative;
+    left: -90px;
+}
+.feedback-content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-profile4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid #fac031;
+    position: relative;
+    left: -130px;
+}
+.feedback-profile4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.feedback-name4{
+    font-size: 28px;
+    color: white;
+    position: relative;
+    left: -90px;
+}
+
+.thoughts {
+width: 100%;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 32px;
+font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+color: #fac031;
+font-weight: 500px;
+margin-top: 50px;
+margin-bottom: 20px;    
+}
+
+.shares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.share {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+    left: 71px;
+    box-sizing: border-box;
+}
+
+.cmtbtn {
+    background-color: #fac031;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    display: grid;
+    justify-self:space-evenly;
+    padding-top: 1rem;
+    position: relative;
+    top: 140px;
+    left: -255px;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+@media screen and (min-width:615px) and (max-width: 768px) {
+    .share {
+        max-width: 100%;
+        left: 65px;
+        top: 0;
+        padding: 10px;
+        width: 450px;
+        height: 100px;
+    }
+    .shares {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 12px;
+        bottom: 5px;
+    }
+
+    .cmtbtn {
+        top: 88px;
+        left: -221px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 614px) {
+    .thoughts {
+        font-size: 20px;
+        /* margin: 20px; */
+        position: relative;
+        left: -1px;
+        margin-bottom: 30px;
+    } 
+    .shares {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* top: 12px; */
+        bottom: 5px;
+        left: 2px;
+        margin-top: -90px;
+    }
+
+    .share {
+        max-width: 100%;
+        left: 56px;
+        top: 0;
+        padding: 10px;
+        width: 250px;
+        height: 75px;
+        /* margin-top: 350px; */
+    }
+
+    .cmtbtn {
+        top: 81px;
+        left: -129px;
+        width: 100px;
+    }
+    .feedback_1, .feedback_2, .feedback_3, .feedback_4{
+        height: 50vh;
+    }
+    .feedback-name1,.feedback-name2,.feedback-name3,.feedback-name4{
+        left: 50px;
+        text-align: justify;
+    }
+    .feedback-profile1,.feedback-profile2,.feedback-profile3,.feedback-profile4{
+        left: 10px;
+    }
+    .font1,.font2,.font3,.font4{
+        font-size: 18px;
+        padding:  15px;
+    }
+    .customer{
+        margin-bottom: 30px;
+    }
+    
+}

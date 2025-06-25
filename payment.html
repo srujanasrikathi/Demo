@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+       .full {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container { 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;}
+    .pd{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: weight;
+  font-style: normal;
+    }
+.bottom {
+    display: flex;
+}
+h2 {
+    text-align: center;
+}
+.left{
+    width: 250px;
+    padding-right: 20px;
+}
+/* .right {
+    width: 250px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: auto;
+} */
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-group input {
+    width: 110%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.pay a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(53, 110, 53);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(53, 110, 53);
+}
+    </style>
+</head>
+<body>
+    <div class="full">
+    <div class="container">
+        <div class="pd"><h2>PAYMENT DETAILS</h2></div>
+        <div class="bottom">
+
+        <div class="left">
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="number" id="card-number" name="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="card-name">Cardholder Name</label>
+                <input type="text" id="card-name" name="card-name" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry-date">Expiry Date</label>
+                <input type="number" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" name="cvv" required>
+            </div>
+            <div class="pay">
+            <button onclick="showAlert()" class="s"><a href="http://127.0.0.1:5500/project_148.html">PAY NOW</a></button>
+        </div>
+        </form>
+    </div>
+    <!-- <div class="right">
+        <img src="./images-removebg-preview.png">
+    </div> -->
+    </div>
+</div>
+    <script> 
+    function showAlert() {
+        alert('Payment successful!');
+    }
+</script>
+</body>
+</html>
